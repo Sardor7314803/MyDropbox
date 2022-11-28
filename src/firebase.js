@@ -4,13 +4,13 @@ import "firebase/firestore"
 import "firebase/storage"
 
 const app = firebase.initializeApp({
-  apiKey: "You api key",
-  authDomain: "You authDomain",
-  databaseURL: "You databaseURL",
-  projectId: "You projectId",
-  storageBucket: "You storageBucket",
-  messagingSenderId: "You messagingSenderId",
-  appId: "You appId"
+  apiKey: "AIzaSyDRpDhwm8BLbMctGncabsF6X2le_BSPE5A",
+  authDomain: "dropbox-95024.firebaseapp.com",
+  databaseURL: "https://dropbox-95024-default-rtdb.firebaseio.com",
+  projectId: "dropbox-95024",
+  storageBucket: "dropbox-95024.appspot.com",
+  messagingSenderId: "907944195527",
+  appId: "1:907944195527:web:ad02b3005b156b5da615e2"
 })
 
 const firestore = app.firestore()
